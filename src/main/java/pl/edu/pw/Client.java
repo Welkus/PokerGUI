@@ -39,7 +39,7 @@ public class Client{
         canLogout = true;
 
         try {
-            socket = new Socket("192.168.5.172",31001);
+            socket = new Socket("171.25.230.60",31001);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(),true);
         } catch (IOException e) {
