@@ -24,7 +24,7 @@ public class LoginController{
     public void createAccount(){
 
         try {
-            FXMLLoader loader = new FXMLLoader(LoginController.class.getResource("signupScreen.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("signupScreen.fxml"));
             Parent root = loader.load();
 
             SignupController sc = loader.getController();

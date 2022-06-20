@@ -39,7 +39,7 @@ public class Client{
         canLogout = true;
 
         try {
-            socket = new Socket("171.25.230.60",31001);
+            socket = new Socket("192.168.5.172",31001);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(),true);
         } catch (IOException e) {
@@ -328,7 +328,7 @@ public class Client{
     private void openWait(){
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("../../resources/wait.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("wait.fxml"));
             Parent root = loader.load();
 
             WaitController wc = loader.getController();
@@ -348,7 +348,7 @@ public class Client{
     private void openTable(){
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("../../resources/table.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("table.fxml"));
             Parent root = loader.load();
 
             TableController tc = loader.getController();

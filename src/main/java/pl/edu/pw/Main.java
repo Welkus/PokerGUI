@@ -17,7 +17,7 @@ public class Main extends Application {
         client = new Client();
 
         this.stage = primaryStage;
-        FXMLLoader loader = new FXMLLoader(Main.class.getResource("loginScreen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loginScreen.fxml"));
         Parent root = loader.load();
 
         LoginController lc = loader.getController();
