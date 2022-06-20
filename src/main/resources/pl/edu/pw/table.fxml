@@ -14,17 +14,17 @@
 
 <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1246.0" style="-fx-background-color: #957947;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.pw.TableController">
    <children>
-      <ImageView fitHeight="870.0" fitWidth="1266.0" layoutX="-8.0" layoutY="-9.0" pickOnBounds="true">
+      <ImageView fitHeight="870.0" fitWidth="1266.0" layoutX="-5.0" layoutY="-16.0" pickOnBounds="true">
          <image>
             <Image url="@mainbg.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="144.0" fitWidth="180.0" layoutX="639.0" layoutY="3.0" pickOnBounds="true">
+      <ImageView fitHeight="144.0" fitWidth="180.0" layoutX="633.0" layoutY="5.0" pickOnBounds="true">
          <image>
             <Image url="@spbubble.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="523.0" fitWidth="907.0" layoutX="132.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="523.0" fitWidth="907.0" layoutX="140.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Table.png" />
          </image>
@@ -105,45 +105,45 @@
          </font></TextField>
       <ImageView fx:id="card21" fitHeight="78.0" fitWidth="68.0" layoutX="225.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card22" fitHeight="78.0" fitWidth="68.0" layoutX="279.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card31" fitHeight="72.0" fitWidth="68.0" layoutX="315.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card32" fitHeight="72.0" fitWidth="61.0" layoutX="365.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card41" fitHeight="78.0" fitWidth="68.0" layoutX="838.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card42" fitHeight="78.0" fitWidth="68.0" layoutX="890.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card51" fitHeight="72.0" fitWidth="68.0" layoutX="938.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card52" fitHeight="72.0" fitWidth="68.0" layoutX="988.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@client/resources/download.jpg" />
+            <Image url="@download.jpg" />
          </image>
       </ImageView>
-      <Text fx:id="chipID" layoutX="819.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POT">
+      <Text fx:id="chipID" layoutX="1019.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POT">
          <font>
             <Font name="Elephant" size="22.0" />
          </font>
@@ -153,7 +153,7 @@
             <Font name="Arial Black" size="23.0" />
          </font>
       </Button>
-      <Text fx:id="pot" layoutX="871.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000" wrappingWidth="107.0">
+      <Text fx:id="pot" layoutX="1065.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000" wrappingWidth="107.0">
          <font>
             <Font name="DAGGERSQUARE" size="24.0" />
          </font>
@@ -162,12 +162,12 @@
          <font>
             <Font name="System Bold" size="18.0" />
          </font></Button>
-      <Text layoutX="816.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" BET: ">
+      <Text layoutX="1014.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" BET: ">
          <font>
             <Font name="DAGGERSQUARE" size="20.0" />
          </font>
       </Text>
-      <Text fx:id="bet" layoutX="872.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" wrappingWidth="124.0">
+      <Text fx:id="bet" layoutX="1068.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" wrappingWidth="124.0">
          <font>
             <Font name="DAGGERSQUARE" size="20.0" />
          </font>
@@ -188,30 +188,30 @@
       <Circle fx:id="circle3" fill="#1d9a38" layoutX="436.0" layoutY="259.0" radius="16.0" stroke="#23b21e" strokeType="INSIDE" visible="false" />
       <Circle fx:id="circle4" fill="#1d9a38" layoutX="799.0" layoutY="243.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
       <Circle fx:id="circle5" fill="#1d9a38" layoutX="1007.0" layoutY="324.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
-      <Circle fx:id="pot1" fill="#1d9a38" layoutX="868.0" layoutY="168.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="pot3" fill="#1d9a38" layoutX="894.0" layoutY="188.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="pot2" fill="#1d9a38" layoutX="926.0" layoutY="169.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="pot4" fill="#1d9a38" layoutX="958.0" layoutY="184.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="pot5" fill="#1d9a38" layoutX="926.0" layoutY="201.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="pot6" fill="#1d9a38" layoutX="863.0" layoutY="201.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="avatar2" fill="#798a9a" layoutX="406.0" layoutY="89.0" radius="62.0" stroke="#9e8f8d" strokeType="INSIDE" />
-      <TextField fx:id="p2" alignment="CENTER" layoutX="361.0" layoutY="148.0" prefHeight="42.0" prefWidth="91.0" style="-fx-background-color: #b0a0a0; -fx-text-fill: white;" text="Pusty">
+      <Circle fx:id="pot1" fill="#1d9a38" layoutX="865.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="pot3" fill="#1d9a38" layoutX="897.0" layoutY="127.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="pot2" fill="#1d9a38" layoutX="906.0" layoutY="164.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="pot4" fill="#1d9a38" layoutX="933.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="pot5" fill="#1d9a38" layoutX="944.0" layoutY="176.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="pot6" fill="#1d9a38" layoutX="865.0" layoutY="176.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="avatar2" fill="#798a9a" layoutX="406.0" layoutY="135.0" radius="62.0" stroke="#9e8f8d" strokeType="INSIDE" />
+      <TextField fx:id="p2" alignment="CENTER" layoutX="217.0" layoutY="90.0" prefHeight="42.0" prefWidth="91.0" style="-fx-background-color: #b0a0a0; -fx-text-fill: white;" text="Pusty">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </TextField>
-      <TextField fx:id="c2" alignment="CENTER" layoutX="362.0" layoutY="190.0" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #eeeeee;" text="-">
+      <TextField fx:id="c2" alignment="CENTER" layoutX="220.0" layoutY="137.0" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #eeeeee;" text="-">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </TextField>
       <Circle fx:id="avatar1" fill="#798a9a" layoutX="406.0" layoutY="770.0" radius="62.0" stroke="#9e8f8d" strokeType="INSIDE" />
-      <TextField fx:id="p1" alignment="CENTER" layoutX="502.0" layoutY="739.0" prefHeight="42.0" prefWidth="91.0" style="-fx-background-color: #b0a0a0; -fx-text-fill: white;" text="Pusty">
+      <TextField fx:id="p1" alignment="CENTER" layoutX="502.0" layoutY="729.0" prefHeight="42.0" prefWidth="91.0" style="-fx-background-color: #b0a0a0; -fx-text-fill: white;" text="Pusty">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </TextField>
-      <TextField fx:id="c1" alignment="CENTER" layoutX="504.0" layoutY="781.0" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #eeeeee;" text="-">
+      <TextField fx:id="c1" alignment="CENTER" layoutX="504.0" layoutY="775.0" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #eeeeee;" text="-">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
@@ -221,27 +221,17 @@
             <Font name="System Bold" size="17.0" />
          </font>
       </TextField>
-      <Text fx:id="action" fill="#84fffb" layoutX="661.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="137.0">
+      <Text fx:id="action" fill="#84fffb" layoutX="655.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="137.0">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Text>
-      <Text fx:id="action3" fill="WHITE" layoutX="329.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="116.0">
+      <Text fx:id="action3" fill="WHITE" layoutX="205.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="116.0">
          <font>
             <Font name="Lucida Fax Demibold" size="19.0" />
          </font>
       </Text>
-      <Text fx:id="action2" fill="WHITE" layoutX="100.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.0">
-         <font>
-            <Font name="Lucida Fax Demibold" size="19.0" />
-         </font>
-      </Text>
-      <Text fx:id="action4" fill="WHITE" layoutX="961.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="124.0">
-         <font>
-            <Font name="Lucida Fax Demibold" size="19.0" />
-         </font>
-      </Text>
-      <Text fx:id="action5" fill="WHITE" layoutX="1069.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="124.0">
+      <Text fx:id="action2" fill="WHITE" layoutX="225.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.0">
          <font>
             <Font name="Lucida Fax Demibold" size="19.0" />
          </font>
