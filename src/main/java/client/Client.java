@@ -39,7 +39,7 @@ public class Client{
         canLogout = true;
 
         try {
-            socket = new Socket("localhost",31001);
+            socket = new Socket("192.168.5.172",31002);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(),true);
         } catch (IOException e) {
@@ -96,36 +96,36 @@ public class Client{
                     tc.p2.setText(message[1]);
                     tc.c2.setText(String.valueOf(message[2]));
                     tc.circle2.setVisible(true);
-                    tc.circle2.setFill(new ImagePattern(new Image("/resources/blackChip2.jpg")));
-                    tc.avatar2.setFill(new ImagePattern(new Image("/resources/face3.jpg")));
+                    tc.circle2.setFill(new ImagePattern(new Image("blackChip2.jpg")));
+                    tc.avatar2.setFill(new ImagePattern(new Image("face3.jpg")));
                 }
                 else if(players.size()==3){
                     tc.p3.setText(message[1]);
                     tc.c3.setText(String.valueOf(message[2]));
                     tc.circle3.setVisible(true);
-                    tc.circle3.setFill(new ImagePattern(new Image("/resources/blackChip2.jpg")));
-                    tc.avatar3.setFill(new ImagePattern(new Image("/resources/face5.png")));
+                    tc.circle3.setFill(new ImagePattern(new Image("blackChip2.jpg")));
+                    tc.avatar3.setFill(new ImagePattern(new Image("face5.png")));
                 }
                 else if(players.size()==4){
                     tc.p4.setText(message[1]);
                     tc.c4.setText(String.valueOf(message[2]));
                     tc.circle4.setVisible(true);
-                    tc.circle4.setFill(new ImagePattern(new Image("/resources/blackChip2.jpg")));
-                    tc.avatar4.setFill(new ImagePattern(new Image("/resources/face4.jpg")));
+                    tc.circle4.setFill(new ImagePattern(new Image("blackChip2.jpg")));
+                    tc.avatar4.setFill(new ImagePattern(new Image("face4.jpg")));
                 }
                 else if(players.size()==5){
                     tc.p5.setText(message[1]);
                     tc.c5.setText(String.valueOf(message[2]));
                     tc.circle5.setVisible(true);
-                    tc.circle5.setFill(new ImagePattern(new Image("/resources/blackChip2.jpg")));
-                    tc.avatar5.setFill(new ImagePattern(new Image("/resources/face6.png")));
+                    tc.circle5.setFill(new ImagePattern(new Image("blackChip2.jpg")));
+                    tc.avatar5.setFill(new ImagePattern(new Image("face6.png")));
                 }
                 break;
 
             case "card":
                 tc.message.setText(" ");
-                tc.card1.setImage(new Image("/resources/" + message[1] + ".png"));
-                tc.card2.setImage(new Image("/resources/" + message[2] + ".png"));
+                tc.card1.setImage(new Image("" + message[1] + ".png"));
+                tc.card2.setImage(new Image("" + message[2] + ".png"));
                 break;
 
             case "chips":
@@ -160,17 +160,17 @@ public class Client{
                 break;
 
             case "flop":
-                tc.cc1.setImage(new Image("/resources/" + message[1] + ".png"));
-                tc.cc2.setImage(new Image("/resources/" + message[2] + ".png"));
-                tc.cc3.setImage(new Image("/resources/" + message[3] + ".png"));
+                tc.cc1.setImage(new Image("" + message[1] + ".png"));
+                tc.cc2.setImage(new Image("" + message[2] + ".png"));
+                tc.cc3.setImage(new Image("" + message[3] + ".png"));
                 break;
 
             case "turn":
-                tc.cc4.setImage(new Image("/resources/" + message[1] + ".png"));
+                tc.cc4.setImage(new Image("" + message[1] + ".png"));
                 break;
 
             case "river":
-                tc.cc5.setImage(new Image("/resources/" + message[1] + ".png"));
+                tc.cc5.setImage(new Image("" + message[1] + ".png"));
                 break;
 
             case "whichPturn":
@@ -223,23 +223,23 @@ public class Client{
                 break;
 
             case "cardReset":
-                tc.card1.setImage(new Image("/resources/download.jpg"));
-                tc.card2.setImage(new Image("/resources/download.jpg"));
+                tc.card1.setImage(new Image("download.jpg"));
+                tc.card2.setImage(new Image("download.jpg"));
 
-                tc.cc1.setImage(new Image("/resources/download.jpg"));
-                tc.cc2.setImage(new Image("/resources/download.jpg"));
-                tc.cc3.setImage(new Image("/resources/download.jpg"));
-                tc.cc4.setImage(new Image("/resources/download.jpg"));
-                tc.cc5.setImage(new Image("/resources/download.jpg"));
+                tc.cc1.setImage(new Image("download.jpg"));
+                tc.cc2.setImage(new Image("download.jpg"));
+                tc.cc3.setImage(new Image("download.jpg"));
+                tc.cc4.setImage(new Image("download.jpg"));
+                tc.cc5.setImage(new Image("download.jpg"));
 
-                tc.card21.setImage(new Image("/resources/download.jpg"));
-                tc.card22.setImage(new Image("/resources/download.jpg"));
-                tc.card31.setImage(new Image("/resources/download.jpg"));
-                tc.card32.setImage(new Image("/resources/download.jpg"));
-                tc.card41.setImage(new Image("/resources/download.jpg"));
-                tc.card42.setImage(new Image("/resources/download.jpg"));
-                tc.card51.setImage(new Image("/resources/download.jpg"));
-                tc.card52.setImage(new Image("/resources/download.jpg"));
+                tc.card21.setImage(new Image("download.jpg"));
+                tc.card22.setImage(new Image("download.jpg"));
+                tc.card31.setImage(new Image("download.jpg"));
+                tc.card32.setImage(new Image("download.jpg"));
+                tc.card41.setImage(new Image("download.jpg"));
+                tc.card42.setImage(new Image("download.jpg"));
+                tc.card51.setImage(new Image("download.jpg"));
+                tc.card52.setImage(new Image("download.jpg"));
                 tc.action.setText(" ");
 
                 players = new ArrayList<>();
@@ -252,20 +252,20 @@ public class Client{
                     if(message[1].equals(username))continue;
 
                     if(tc.p2.getText().equals(message[1])){
-                        tc.card21.setImage(new Image("/resources/" + message[2] + ".png"));
-                        tc.card22.setImage(new Image("/resources/" + message[3] + ".png"));
+                        tc.card21.setImage(new Image("" + message[2] + ".png"));
+                        tc.card22.setImage(new Image("" + message[3] + ".png"));
                     }
                     else  if(tc.p3.getText().equals(message[1])){
-                        tc.card31.setImage(new Image("/resources/" + message[2] + ".png"));
-                        tc.card32.setImage(new Image("/resources/" + message[3] + ".png"));
+                        tc.card31.setImage(new Image("" + message[2] + ".png"));
+                        tc.card32.setImage(new Image("" + message[3] + ".png"));
                     }
                     else if(tc.p4.getText().equals(message[1])){
-                        tc.card41.setImage(new Image("/resources/" + message[2] + ".png"));
-                        tc.card42.setImage(new Image("/resources/" + message[3] + ".png"));
+                        tc.card41.setImage(new Image("" + message[2] + ".png"));
+                        tc.card42.setImage(new Image("" + message[3] + ".png"));
                     }
                     else if(tc.p5.getText().equals(message[1])){
-                        tc.card51.setImage(new Image("/resources/" + message[2] + ".png"));
-                        tc.card52.setImage(new Image("/resources/" + message[3] + ".png"));
+                        tc.card51.setImage(new Image("" + message[2] + ".png"));
+                        tc.card52.setImage(new Image("" + message[3] + ".png"));
                     }
 
                 }
@@ -362,14 +362,14 @@ public class Client{
             tc.p1.setText(username);
             tc.c1.setText(String.valueOf(chips));
 
-            tc.circle.setFill(new ImagePattern(new Image("/resources/blackChip2.jpg")));
-            tc.pot1.setFill(new ImagePattern(new Image("/resources/redChip.png")));
-            tc.pot2.setFill(new ImagePattern(new Image("/resources/redChip.png")));
-            tc.pot3.setFill(new ImagePattern(new Image("/resources/redChip.png")));
-            tc.pot4.setFill(new ImagePattern(new Image("/resources/redChip.png")));
-            tc.pot5.setFill(new ImagePattern(new Image("/resources/redChip.png")));
-            tc.pot6.setFill(new ImagePattern(new Image("/resources/redChip.png")));
-            tc.avatar1.setFill(new ImagePattern(new Image("/resources/face2.jpg")));
+            tc.circle.setFill(new ImagePattern(new Image("blackChip2.jpg")));
+            tc.pot1.setFill(new ImagePattern(new Image("redChip.png")));
+            tc.pot2.setFill(new ImagePattern(new Image("redChip.png")));
+            tc.pot3.setFill(new ImagePattern(new Image("redChip.png")));
+            tc.pot4.setFill(new ImagePattern(new Image("redChip.png")));
+            tc.pot5.setFill(new ImagePattern(new Image("redChip.png")));
+            tc.pot6.setFill(new ImagePattern(new Image("redChip.png")));
+            tc.avatar1.setFill(new ImagePattern(new Image("face2.jpg")));
         }
         catch (IOException e){
             e.printStackTrace();
