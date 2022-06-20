@@ -1,4 +1,4 @@
-package client;
+package pl.edu.pw;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;

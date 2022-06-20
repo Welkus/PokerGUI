@@ -8,11 +8,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.WaitController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.pw.WaitController">
    <children>
       <ImageView fitHeight="401.0" fitWidth="600.0" pickOnBounds="true">
          <image>
-            <Image url="@../resources/wait.jpg" />
+            <Image url="@../../resources/wait.jpg" />
          </image>
       </ImageView>
       <Text fill="WHITE" layoutX="134.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WAITING . . .">

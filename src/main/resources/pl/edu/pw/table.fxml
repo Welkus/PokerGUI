@@ -10,21 +10,21 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1246.0" style="-fx-background-color: #957947;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.TableController">
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1246.0" style="-fx-background-color: #957947;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.pw.TableController">
    <children>
       <ImageView fitHeight="870.0" fitWidth="1266.0" layoutX="-8.0" layoutY="-9.0" pickOnBounds="true">
          <image>
-            <Image url="@../resources/mainbg.jpg" />
+            <Image url="@../../resources/mainbg.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="144.0" fitWidth="180.0" layoutX="639.0" layoutY="3.0" pickOnBounds="true">
          <image>
-            <Image url="@../resources/spbubble.png" />
+            <Image url="@../../resources/spbubble.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="523.0" fitWidth="907.0" layoutX="182.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/Table.png" />
+            <Image url="@client/resources/Table.png" />
          </image>
       </ImageView>
       <HBox layoutX="406.0" layoutY="340.0" prefHeight="124.0" prefWidth="447.0">
@@ -33,28 +33,28 @@
                <children>
                   <ImageView fx:id="cc1" fitHeight="132.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children></VBox>
             <VBox fx:id="v2" prefHeight="75.0" prefWidth="83.0">
                <children>
                   <ImageView fx:id="cc2" fitHeight="132.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children></VBox>
             <VBox fx:id="v3" prefHeight="146.0" prefWidth="145.0">
                <children>
                   <ImageView fx:id="cc3" fitHeight="133.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children></VBox>
             <VBox fx:id="v4" prefHeight="200.0" prefWidth="100.0">
                <children>
                   <ImageView fx:id="cc4" fitHeight="134.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children>
             </VBox>
@@ -62,7 +62,7 @@
                <children>
                   <ImageView fx:id="cc5" fitHeight="133.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children></VBox>
          </children>
@@ -85,14 +85,14 @@
                <children>
                   <ImageView fx:id="card1" fitHeight="99.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children></VBox>
             <VBox fx:id="v7" prefHeight="200.0" prefWidth="100.0">
                <children>
                   <ImageView fx:id="card2" fitHeight="100.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../resources/download.jpg" />
+                        <Image url="@client/resources/download.jpg" />
                      </image></ImageView>
                </children></VBox>
          </children>
@@ -103,42 +103,42 @@
          </font></TextField>
       <ImageView fx:id="card21" fitHeight="78.0" fitWidth="68.0" layoutX="225.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card22" fitHeight="78.0" fitWidth="68.0" layoutX="279.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card31" fitHeight="72.0" fitWidth="68.0" layoutX="315.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card32" fitHeight="72.0" fitWidth="61.0" layoutX="365.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card41" fitHeight="78.0" fitWidth="68.0" layoutX="838.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card42" fitHeight="78.0" fitWidth="68.0" layoutX="890.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card51" fitHeight="72.0" fitWidth="68.0" layoutX="938.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="card52" fitHeight="72.0" fitWidth="68.0" layoutX="988.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/download.jpg" />
+            <Image url="@client/resources/download.jpg" />
          </image>
       </ImageView>
       <Text fx:id="chipID" layoutX="549.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POT">
@@ -279,7 +279,7 @@
       </Text>
       <ImageView fitHeight="124.0" fitWidth="180.0" layoutX="531.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/dealer6.png" />
+            <Image url="@client/resources/dealer6.png" />
          </image>
       </ImageView>
    </children>

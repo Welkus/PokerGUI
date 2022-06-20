@@ -1,7 +1,7 @@
-module client {
+module pl.edu.pw{
     requires javafx.controls;
     requires javafx.fxml;
 
-    exports client;
-    opens client to javafx.fxml;
+    opens pl.edu.pw to javafx.fxml;
+    exports pl.edu.pw;
 }

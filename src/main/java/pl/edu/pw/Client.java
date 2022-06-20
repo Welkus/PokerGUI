@@ -1,4 +1,4 @@
-package client;
+package pl.edu.pw;
 
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
@@ -96,29 +96,29 @@ public class Client{
                     tc.p2.setText(message[1]);
                     tc.c2.setText(String.valueOf(message[2]));
                     tc.circle2.setVisible(true);
-                    tc.circle2.setFill(new ImagePattern(new Image("blackChip2.jpg")));
-                    tc.avatar2.setFill(new ImagePattern(new Image("face3.jpg")));
+                    tc.circle2.setFill(new ImagePattern(new Image("pl/edu/pw/blackChip2.jpg")));
+                    tc.avatar2.setFill(new ImagePattern(new Image("pl/edu/pw/face3.jpg")));
                 }
                 else if(players.size()==3){
                     tc.p3.setText(message[1]);
                     tc.c3.setText(String.valueOf(message[2]));
                     tc.circle3.setVisible(true);
-                    tc.circle3.setFill(new ImagePattern(new Image("blackChip2.jpg")));
-                    tc.avatar3.setFill(new ImagePattern(new Image("face5.png")));
+                    tc.circle3.setFill(new ImagePattern(new Image("pl/edu/pw/blackChip2.jpg")));
+                    tc.avatar3.setFill(new ImagePattern(new Image("pl/edu/pw/face5.png")));
                 }
                 else if(players.size()==4){
                     tc.p4.setText(message[1]);
                     tc.c4.setText(String.valueOf(message[2]));
                     tc.circle4.setVisible(true);
-                    tc.circle4.setFill(new ImagePattern(new Image("blackChip2.jpg")));
-                    tc.avatar4.setFill(new ImagePattern(new Image("face4.jpg")));
+                    tc.circle4.setFill(new ImagePattern(new Image("pl/edu/pw/blackChip2.jpg")));
+                    tc.avatar4.setFill(new ImagePattern(new Image("pl/edu/pw/face4.jpg")));
                 }
                 else if(players.size()==5){
                     tc.p5.setText(message[1]);
                     tc.c5.setText(String.valueOf(message[2]));
                     tc.circle5.setVisible(true);
-                    tc.circle5.setFill(new ImagePattern(new Image("blackChip2.jpg")));
-                    tc.avatar5.setFill(new ImagePattern(new Image("face6.png")));
+                    tc.circle5.setFill(new ImagePattern(new Image("pl/edu/pw/blackChip2.jpg")));
+                    tc.avatar5.setFill(new ImagePattern(new Image("pl/edu/pw/face6.png")));
                 }
                 break;
 
@@ -223,23 +223,23 @@ public class Client{
                 break;
 
             case "cardReset":
-                tc.card1.setImage(new Image("download.jpg"));
-                tc.card2.setImage(new Image("download.jpg"));
+                tc.card1.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card2.setImage(new Image("pl/edu/pw/download.jpg"));
 
-                tc.cc1.setImage(new Image("download.jpg"));
-                tc.cc2.setImage(new Image("download.jpg"));
-                tc.cc3.setImage(new Image("download.jpg"));
-                tc.cc4.setImage(new Image("download.jpg"));
-                tc.cc5.setImage(new Image("download.jpg"));
+                tc.cc1.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.cc2.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.cc3.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.cc4.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.cc5.setImage(new Image("pl/edu/pw/download.jpg"));
 
-                tc.card21.setImage(new Image("download.jpg"));
-                tc.card22.setImage(new Image("download.jpg"));
-                tc.card31.setImage(new Image("download.jpg"));
-                tc.card32.setImage(new Image("download.jpg"));
-                tc.card41.setImage(new Image("download.jpg"));
-                tc.card42.setImage(new Image("download.jpg"));
-                tc.card51.setImage(new Image("download.jpg"));
-                tc.card52.setImage(new Image("download.jpg"));
+                tc.card21.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card22.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card31.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card32.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card41.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card42.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card51.setImage(new Image("pl/edu/pw/download.jpg"));
+                tc.card52.setImage(new Image("pl/edu/pw/download.jpg"));
                 tc.action.setText(" ");
 
                 players = new ArrayList<>();
@@ -328,7 +328,7 @@ public class Client{
     private void openWait(){
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("wait.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../../resources/wait.fxml"));
             Parent root = loader.load();
 
             WaitController wc = loader.getController();
@@ -348,7 +348,7 @@ public class Client{
     private void openTable(){
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("table.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../../resources/table.fxml"));
             Parent root = loader.load();
 
             TableController tc = loader.getController();
@@ -362,14 +362,14 @@ public class Client{
             tc.p1.setText(username);
             tc.c1.setText(String.valueOf(chips));
 
-            tc.circle.setFill(new ImagePattern(new Image("blackChip2.jpg")));
-            tc.pot1.setFill(new ImagePattern(new Image("redChip.png")));
-            tc.pot2.setFill(new ImagePattern(new Image("redChip.png")));
-            tc.pot3.setFill(new ImagePattern(new Image("redChip.png")));
-            tc.pot4.setFill(new ImagePattern(new Image("redChip.png")));
-            tc.pot5.setFill(new ImagePattern(new Image("redChip.png")));
-            tc.pot6.setFill(new ImagePattern(new Image("redChip.png")));
-            tc.avatar1.setFill(new ImagePattern(new Image("face2.jpg")));
+            tc.circle.setFill(new ImagePattern(new Image("pl/edu/pw/blackChip2.jpg")));
+            tc.pot1.setFill(new ImagePattern(new Image("pl/edu/pw/redChip.png")));
+            tc.pot2.setFill(new ImagePattern(new Image("pl/edu/pw/redChip.png")));
+            tc.pot3.setFill(new ImagePattern(new Image("pl/edu/pw/redChip.png")));
+            tc.pot4.setFill(new ImagePattern(new Image("pl/edu/pw/redChip.png")));
+            tc.pot5.setFill(new ImagePattern(new Image("pl/edu/pw/redChip.png")));
+            tc.pot6.setFill(new ImagePattern(new Image("pl/edu/pw/redChip.png")));
+            tc.avatar1.setFill(new ImagePattern(new Image("pl/edu/pw/face2.jpg")));
         }
         catch (IOException e){
             e.printStackTrace();

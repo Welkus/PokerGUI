@@ -1,4 +1,4 @@
-package client;
+package pl.edu.pw;
 
 public class Player {
 
